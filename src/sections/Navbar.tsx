@@ -24,7 +24,7 @@ export default function Navbar() {
                 ))}
             </nav>
           </div>
-          <div className="flex justify-end gap-2">
+          <div className="flex justify-end gap-1.5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
