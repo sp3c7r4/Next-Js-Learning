@@ -6,11 +6,11 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="py-24">
-      <div className="container relative overflow-x-clip">
-        <div className="absolute -left-32 top-16">
+      <div className="container relative">
+        <div className="absolute -left-[10rem] top-16">
           <Image src={designExample1Image} alt="Design1" />
         </div>
-        <div className="absolute -right-64 -top-16">
+        <div className="absolute -right-[20rem] -top-16">
           <Image src={designExample2Image} alt="Design2" />
         </div>
         <div className="flex justify-center">
